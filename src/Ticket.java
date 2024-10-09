@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+import java.time.LocalDate;
 
-public record Ticket() {
+public record Ticket(double price, String visitorName, LocalDate visitDate) {
+
 }

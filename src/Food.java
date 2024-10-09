@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public record Food() {
+public record Food(String name, int nutritionalValue, double coast) {
 }
